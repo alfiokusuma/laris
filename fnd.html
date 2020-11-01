@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-laris fixed-top">
+  <div class="container-fluid">
+    <!-- Brand -->
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="Logo">
+    </a>
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  
+    <!-- Toggler/collapsibe Button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <!-- Navbar links -->
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">BERANDA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">KATEGORI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">TENTANG KAMI</a>
+        </li>
+        <form class="form-inline" action="">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <div class="input-group-append">
+              <button class="btn btn-success" type="submit">Go</button>
+            </div>
+          </div>
+        </form>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="fas fa-shopping-cart fa-fw"></i></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            <i class="fas fa-user fa-fw"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="#">Link 1</a>
+            <a class="dropdown-item" href="#">Link 2</a>
+            <a class="dropdown-item" href="#">Link 3</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="text-center">MAKANAN & MINUMAN</h2>
+      </div>
+      <div class="col-12">
+        <div class="my-3">
+          <h4>MINUMAN</h4>
+        </div>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/minuman_1.jpg" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/minuman_2.jpg" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/minuman_3.jpg" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+      <div class="col-12">
+        <div class="my-3">
+          <h4>MAKANAN</h4>
+        </div>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/makanan_1.jpg" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/makanan_2.jpg" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+      <div id="list-item" class="col-md-4">
+        <a href="#" class="card">
+          <div class="card-images">
+            <img class="card-img-top" src="images/item/makanan_3.PNG" alt="Card image">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAKANAN & MINUMAN</h5>
+            <p class="card-desc">Rp. 123.123</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<footer>
+  <div class="container-fluid">
+    <div class="d-flex">
+      <p class="my-auto">&copy All Rights Reserved by Laris Copyright 2020</p>
+      <div class="ml-auto">
+        <ul id="list-social">
+          <li>
+            <a href="#" class="facebook">
+              <i class="fab fa-facebook-f fa-fw"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="instagram">
+              <i class="fab fa-instagram fa-fw"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="twitter">
+              <i class="fab fa-twitter fa-fw"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</footer>
+  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://kit.fontawesome.com/b5a2fc8854.js"></script>
+</body>
+</html>
